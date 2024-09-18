@@ -1,7 +1,6 @@
-import { Text, View } from "react-native";
-import Button from "@/components/atoms/Button";
-import Label from "@/components/atoms/Label";
-import InputForm from "@/components/molecules/InputForm";
+import { View,  } from "react-native";
+import Profile from '@/components/molecules/Profile'
+
 export default function Index() {
   return (
     <View
@@ -11,18 +10,9 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text style={{
-        fontSize:50}}>
-        I love Bananas
-      </Text>
 
-      <Button buttonText={'hi'}/>
-      <Label labelText={"hi guys"}/>
+      <Profile/>
 
-      <InputForm
-    textForLabel={'label'}
-    textForButton={'button'}
-    textForPlaceholder={'placejolder'}/>
     </View>
 
 
