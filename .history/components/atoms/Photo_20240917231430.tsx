@@ -3,8 +3,8 @@ import React from 'react';
 
 const style = StyleSheet.create({
     logo: {
-        width: 100,
-        height: 120,
+        width: 60,
+        height:80,
     }
 });
 
@@ -17,3 +17,4 @@ export default function image({ myPhoto }) {
         </View>
     )
 };
+
