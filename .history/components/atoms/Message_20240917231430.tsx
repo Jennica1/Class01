@@ -4,13 +4,9 @@ export default function Button({ messageText }){
     return(
         <View>
             <Text
-            style={
-                {color:"salmon", }
-                        
-            }
+            style={{color:"salmon"}}
             >
             {messageText}
-
             </Text>
         </View>
     )
